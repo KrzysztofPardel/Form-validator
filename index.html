@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BillSplitter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/reset.scss">
+  <link rel="stylesheet" href="./styles/style.scss">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-box">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="eg. John Doe">
+      <p class="error-text">error</p>
+    </div>
+    <div class="form-box">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="qwerty1234567">
+      <p class="error-text">error</p>
+    </div>
+    <div class="form-box">
+      <label for="reapeatPassword">Repeat password</label>
+      <input type="password" id="reapeatPassword" placeholder="qwerty1234567">
+      <p class="error-text">error</p>
+    </div>
+    <div class="form-box">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="johndoe00@gmail.com">
+      <p class="error-text">error</p>
+    </div>
+
+    <div class="control-button">
+      <button class="clear">Clear</button>
+      <button class="send">Send</button>
+    </div>
+    <div class="popup">
+      <p>Formularz został poprawnie wysłany!</p>
+      <button class="close">Close</button>
+    </div>
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
