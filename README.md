@@ -2,7 +2,8 @@
 
 #### This simple project was an excercise which helped me understand how form logic works in vannila JS as well
 
-🔎 This app has been deployed and can be visited at:
+🔎 This app has been deployed and can be visited at: form-validator-six-rose.vercel.app
+
 
 ---
 
